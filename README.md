@@ -16,9 +16,9 @@
   shutil
   os
   ```
-2、把chevereto里所有的图片放进一个文件夹里，修改好run.py文件中的数据库连接地址、用户名和密码，再运行：
+2、把chevereto里所有的图片放进一个文件夹里，修改好chevereto_Recovery.py文件中的数据库连接地址、用户名和密码，再运行：
   ```
-  python runb.py
+  python chevereto_Recovery.py
   ```
 就能按照chevereto里图片归属的相册名创建文件夹，并且将对应的图片存放过去（以复制的形式）。
 
